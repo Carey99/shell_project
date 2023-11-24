@@ -38,4 +38,6 @@ $ (echo "First" | cat - <(echo "Second")) | sort | uniq
 
 _Expected output: First\nSecond_
 
+**Compile this way**
 
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
